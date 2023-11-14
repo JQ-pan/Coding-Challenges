@@ -4,161 +4,165 @@
 body {
     font-size: 0.875rem;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    max-width: 960px;
-}
 
-header {
-    width: 100vw;
-    height: 180px;
-    background-color: #404f6c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero {
-    width: 100vw;
-    height: 180px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 9rem;
-    font-weight: bold;
-    color: #a0a7b6;
-}
-
-.hero h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    position: relative;
-    left: 10rem;
-    bottom: 4rem;
-    color: #404f6c;
-}
-
-.hero p {
-    margin-left: 6rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main .nav-background {
-    width: 100vw;
-    background-color: #333f57;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nav-bar {
-    width: 100%;
-}
-
-.nav-bar ul {
-    display: flex;
-    flex-direction: row;
-    width: 960px;
-}
-
-.nav-bar li {
-    font-size: 1.9em;
-    font-family: 'Oswald', sans-serif;
-    padding: 0.6rem 1.3rem;
-    color: #8d9098;
-    background-color: #333f57;
+@media (min-width: 1200px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        max-width: 960px;
+    }
     
-}
+    .blank-screen {
+        /* height: 100vh; */
+    }
 
-.nav-bar .selected {
-    color: #333f57;
-    background-color: #8d9098;
-    text-decoration: underline;
-}
-
-main .content-background {
-    width: 1600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('https://images.unsplash.com/photo-1464908394256-327852e6539a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-main .content {
-    height: 34rem;
-    width: 960px;
-}
-
-.content .schedule {
-    display: inline-block;
-    background-color: rgba(245,248,250, 0.8);
-    padding: 2rem 3rem;
-    margin-top: 6rem;
-    margin-left: 2.4rem;
-}
-
-.content .title {
-    color: #404f6c;
-    font-size: 2.6rem;   
-    font-family: 'Oswald', sans-serif;
-    padding-bottom: 2rem;
-}
-
-.content ul {
-    display: flex;
-    flex-direction: column;
-    width: 27rem;
-}
-
-.content li {
-    font-size: 1.4rem;
-    display: flex;
-    justify-content: space-between;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-footer {
-    background-color: #404f6c;
-    height: 3.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-footer .content {
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #61759e;
-    font-family: 'Oswald', sans-serif;
-}
-
-footer img {
+    header {
+        width: 100vw;
+        height: 180px;
+        background-color: #404f6c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
-}
-
-footer .copyright {
-    font-style: italic;
-    letter-spacing: 1px;
+    .hero {
+        width: 100vw;
+        height: 180px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 9rem;
+        font-weight: bold;
+        color: #a0a7b6;
+    }
+    
+    .hero h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        left: 10rem;
+        bottom: 4rem;
+        color: #404f6c;
+    }
+    
+    .hero p {
+        margin-left: 6rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.5;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .nav-background {
+        width: 100vw;
+        background-color: #333f57;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        width: 100%;
+    }
+    
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        width: 960px;
+    }
+    
+    .nav-bar li {
+        font-size: 1.9em;
+        font-family: 'Oswald', sans-serif;
+        padding: 0.6rem 1.3rem;
+        color: #8d9098;
+        background-color: #333f57;
+        
+    }
+    
+    .nav-bar .selected {
+        color: #333f57;
+        background-color: #8d9098;
+        text-decoration: underline;
+    }
+    
+    main .content-background {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    
+    main .content {
+        height: 34rem;
+        width: 100vw;
+        max-width: 960px;
+    }
+    
+    .content .schedule {
+        display: inline-block;
+        background-color: rgba(245,248,250, 0.8);
+        padding: 2rem 3rem;
+        margin-top: 6rem;
+        margin-left: 2.4rem;
+    }
+    
+    .content .title {
+        color: #404f6c;
+        font-size: 2.6rem;   
+        font-family: 'Oswald', sans-serif;
+        padding-bottom: 2rem;
+    }
+    
+    .content ul {
+        display: flex;
+        flex-direction: column;
+        width: 27rem;
+    }
+    
+    .content li {
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    footer {
+        background-color: #404f6c;
+        height: 3.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    footer .content {
+        width: 960px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #61759e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    footer .copyright {
+        font-style: italic;
+        letter-spacing: 1px;
+    }
 }
