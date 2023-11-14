@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>SkillTest</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -31,8 +32,9 @@
     <main class="main">
         <div class="nav-background">
             <div class="container">
-                <div class="nav-bar">
-                    <ul>
+                <div class="navigation">
+                    <ul class="nav-list" id="main-nav-list">
+                        <li id="hamburger" onClick="dropDownMenu()"><i class="fa fa-bars"></i></li>
                         <li class="selected">MOUNTAIN 1</li>
                         <li>MOUNTAIN 2</li>
                     </ul>
