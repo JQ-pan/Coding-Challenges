@@ -630,7 +630,6 @@ body {
     .navigation ul {
         display: flex;
         flex-direction: row;
-        width: 960px;
     }
     
     .navigation li {
